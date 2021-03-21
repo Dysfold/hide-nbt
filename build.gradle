@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    
+    maven { url 'https://papermc.io/repo/repository/maven-public/' }
+    maven { url 'https://repo.dmulloy2.net/repository/public/' }
+}
+
+dependencies {
+    compile 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
+    compile 'com.comphenix.protocol:ProtocolLib:4.6.0'
+}

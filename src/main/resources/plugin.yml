@@ -1,0 +1,5 @@
+main: fi.valtakausi.hidenbt.HideNbtPlugin
+name: hide-nbt
+api-version: 1.16
+version: 0.1
+depend: [ProtocolLib]
